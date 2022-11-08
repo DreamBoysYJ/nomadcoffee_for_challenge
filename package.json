@@ -16,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/DreamBoysYJ/nomadcoffee_for_challenge/issues"
   },
-  "homepage": "https://github.com/DreamBoysYJ/nomadcoffee_for_challenge#readme"
+  "homepage": "https://github.com/DreamBoysYJ/nomadcoffee_for_challenge#readme",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.3.11",
+    "@graphql-tools/schema": "^9.0.9",
+    "apollo-server": "^2.25.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.5.0"
+  }
 }
